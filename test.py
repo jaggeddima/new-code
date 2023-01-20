@@ -21,7 +21,7 @@ while l == True:
         pyautogui.write("print (n1)", interval=0.05)
         time.sleep(0.5)
         pyautogui.press('enter')
-        pyautogui.write("n1 = random.raandint(1, 10)", interval=0.05)
+        pyautogui.write("n1 = random.randint(1, 10)", interval=0.05)
         time.sleep(0.5)
         pyautogui.press('enter')
 
