@@ -60,7 +60,7 @@ while l == True:
         pyautogui.press('enter')
 
     elif vubor == "4":
-        pyautogui.write ("Code in https://github.com/jaggeddima/new-code/blob/main/test.py", interval=0.05)
+        print ("Code in https://github.com/jaggeddima/new-code/blob/main/test.py")
     elif vubor == "Exti":
         l = False
     else:
